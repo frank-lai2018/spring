@@ -23,7 +23,7 @@ public class AccountService {
     		accountDao.reduceMoney();
 
             //模拟异常
-            int i = 10/0;
+//            int i = 10/0;
 
             //mary多100
             accountDao.addMoney();
